@@ -1,45 +1,51 @@
 * {
   flex-direction: column;
-  margin-top: 10px;
-  margin-left: 5%;
-  margin-right: 3%;
+  margin:0%;
+  padding:0%;
   text-align: center;
-  background-color: rgb(186, 228, 214);
   font-size: large;
+  color:antiquewhite;
 }
+
 h1 {
   color: rgb(129, 57, 57);
   text-shadow: 1cm;
 }
+
 h5 {
   text-align: center;
+  align-items:center;
   font-family: "Special Elite", cursive;
 }
 
 p:first-of-type {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  float: right;
 }
+
 p:nth-of-type(2) {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
 p:nth-of-type(3) {
   font-size: medium;
   font-weight: 400;
   text-decoration-color: aqua;
   color: brown;
 }
+
 p:nth-of-type(4) {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: smaller;
 }
+
 p:last-of-type {
   font-family: "Special Elite", cursive;
-  font-size: medium;
-
+  font-size: small;
   text-decoration-style: solid;
-  justify-items: end;
   align-items: center;
 }
-input {
-  float: left;
+
+form {
+  float: right;
 }

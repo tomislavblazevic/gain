@@ -9,3 +9,4 @@ if (hour < 18) {
 }
 
 document.getElementById("good day-evening").innerHTML = greeting;
+
