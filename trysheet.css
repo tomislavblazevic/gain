@@ -1,17 +1,21 @@
 * {
   box-sizing:border-box;
   flex-direction: column;
-  margin:0%;
+  margin:5%;
   padding:0%;
   text-align: center;
   font-size: large;
   align-items: center;
   color:antiquewhite;
+  justify-content: center;
+  justify-items: center;
 }
 
 h1 {
+  text-align:center;
   color: rgb(233, 198, 198);
   text-shadow: 1cm;
+  
 }
 
 h5 {
@@ -19,6 +23,7 @@ h5 {
   align-items:center;
   font-family: "Special Elite", cursive;
 }
+
 
 p:first-of-type {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -31,7 +36,7 @@ p:nth-of-type(2) {
 
 p:nth-of-type(3) {
   font-size: medium;
-  font-weight: 400;
+  font-weight: 600;
   text-decoration-color: aqua;
   color: rgb(180, 177, 177);
 }

@@ -1,4 +1,6 @@
-body {
+*body {
+    margin:5%;
+    padding:0;
     box-sizing:border-box;
     flex-direction: column;
     background-color: #b7cedc;
