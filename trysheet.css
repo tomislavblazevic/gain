@@ -1,14 +1,16 @@
 * {
+  box-sizing:border-box;
   flex-direction: column;
   margin:0%;
   padding:0%;
   text-align: center;
   font-size: large;
+  align-items: center;
   color:antiquewhite;
 }
 
 h1 {
-  color: rgb(129, 57, 57);
+  color: rgb(233, 198, 198);
   text-shadow: 1cm;
 }
 
@@ -31,7 +33,7 @@ p:nth-of-type(3) {
   font-size: medium;
   font-weight: 400;
   text-decoration-color: aqua;
-  color: brown;
+  color: rgb(180, 177, 177);
 }
 
 p:nth-of-type(4) {
