@@ -20,13 +20,23 @@
 <body>
     <h1>Electric guitars</h1>
     <br>
-    <a href="index3.html"><i>next page...</i></a>
-    <a href="index1.html"><i>previous page...</i></a>
-    <a href="index.html"><i>back home... </i></a>
-
+    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+        <div class="bg-dark p-4">
+          <h5 class="text-body-emphasis h4">Collapsed content</h5>
+          <span class="text-body-secondary"><a href="index3.html"><i>Next...</i></a></span>
+          <span class="text-body-secondary"><a href="index1.html"><i>Previous...</i></a></span>
+          <span class="text-body-secondary"><a href="index.html"><i>Home...</i></a></span>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
     <img alt="two guitars on stage" src="concertguitar.jpg" height="20%" , width="50%" ;>
     <br>
-
     <p>
     An electric guitar is a guitar that requires external amplification in order to be heard at typical performance
     volumes, unlike a standard acoustic guitar. It uses one or more pickups to convert the vibration of its strings into
